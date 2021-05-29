@@ -139,30 +139,17 @@ body {
     }
 
 /* För olika skärmar  */
-    @media screen and (max-width: 1000px) {
-        body {
-            background-color: #5d6161;
-        }
-        .menu a {
-        width: 100%;
-        float: none;
-         }
-    
-         li a {
-        float: left;
-        
-        }
-        div.content {margin-left: 0;}
-    }
+
     
     @media screen and (max-width: 768px) {
       body {
           width: 100%;
           font-size: larger;
       }
-      .mainmenu a {
+     .menu {
           float: none;
           width: 100%;
+          text-align: left;
      }
 
       }
