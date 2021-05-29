@@ -7,7 +7,12 @@ body {
 
     
   }
-
+  div.text {
+    margin-left: 5%;
+    padding: 1px 16px;
+    height: 1000px;
+    text-align: left;
+  }
  
   ul {
     list-style-type: none;
@@ -21,20 +26,36 @@ body {
         float: left;
     }
     
-    .unordered 
-{ list-style-type: disc; } 
-.nested-ul 
-{ list-style-type: circle; }
-.unordered {
+    .unordered { 
+        list-style-type: disc;
+        
+     }
+     .unordered1 { 
+        list-style-type: disc;
+     }
+    .nested-ul { 
+        list-style-type: circle; 
+    }
+
+    .unordered {
     line-height: 150%;
     }
+
+    .unordered1 {
+        line-height: 150%;
+    }
+
     .unordered {
         text-align: center;
         padding: 20px;
         width: 30%;
         font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        display: inline-block; 
+        text-align: left;
+        background-color: #bb3434;
         }
-        
+    
         .unordered li {
         margin: 5px;
         }
@@ -42,6 +63,36 @@ body {
         .nested-ul li {
         margin: 5px;
         }
+
+    .unordered1 {
+        text-align: center;
+        padding: 20px;
+        width: 15%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        display: inline-block; 
+        text-align: left;
+        background-color: #bb3434;
+            }
+            
+    .unordered1 li {
+                margin: 5px;
+    }
+
+    .unordered2 {
+        text-align: center;
+        padding: 20px;
+        width: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        display: inline-block; 
+        text-align: left;
+        background-color: #bb3434;
+        }
+        .unordered2 li {
+            margin: 5px;
+}
+
 
     @media screen and (max-width: 1000px) {
         body {
@@ -78,7 +129,7 @@ body {
       }
       
       li a:hover, .dropdown:hover .dropbtn {
-        background-color: rgb(60, 72, 126);
+        background-color: rgb(214, 43, 43);
       }
       
       li.dropdown {
@@ -151,4 +202,6 @@ body {
         .display-right {
         right: 0%;
         }
+
+    
  
